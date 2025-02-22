@@ -1,0 +1,76 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
+
+function Home() {
+  return (
+    <div className="p-6 text-center">
+      <h1 className="text-3xl font-bold">Kyton Thaundi</h1>
+      <p className="mt-2">Results-driven IT professional specializing in EMRs, system analysis, and software development.</p>
+      <Button asChild className="mt-4">
+        <Link to="/about">Learn More</Link>
+      </Button>
+    </div>
+  );
+}
+
+function About() {
+  return (
+    <div className="p-6">
+      <h2 className="text-2xl font-bold">About Me</h2>
+      <p className="mt-2">Experienced in EMR integration, product management, and software development.</p>
+      <h3 className="mt-4 font-bold">Key Achievements</h3>
+      <ul className="list-disc pl-6 mt-2">
+        <li>Led successful quarterly releases for Malawi’s national EMR system.</li>
+        <li>Integrated TB-EHR into the Malawi National EMR.</li>
+        <li>Trained over 1,000 healthcare workers in EMR usage.</li>
+      </ul>
+    </div>
+  );
+}
+
+function Projects() {
+  return (
+    <div className="p-6">
+      <h2 className="text-2xl font-bold">Projects</h2>
+      <p className="mt-2">Check out my GitHub repositories:</p>
+      <a href="https://github.com/KytonThaundi" target="_blank" className="text-blue-500">github.com/KytonThaundi</a>
+    </div>
+  );
+}
+
+function Contact() {
+  return (
+    <div className="p-6">
+      <h2 className="text-2xl font-bold">Contact Me</h2>
+      <p className="mt-2 flex items-center gap-2"><FaEnvelope /> kythaundi@gmail.com</p>
+      <p className="mt-2 flex items-center gap-2"><FaPhone /> +265 881 147 162</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <div className="min-h-screen flex flex-col">
+        <nav className="p-4 bg-gray-800 text-white flex justify-center gap-4">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contact">Contact</Link>
+        </nav>
+        <div className="flex-grow p-6">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
