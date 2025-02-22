@@ -99,17 +99,17 @@ const Profile = () => {
           <p>
             <strong>Vathlu Nazombe</strong><br />
             eHealth IT Implementation Specialist; UNDP<br />
-            Email: nazombeva@gmail.com, Cell: +265 (0) 999 61 12 80
+            LinkedIn: <a href="https://www.linkedin.com/in/vathlu-nazombe">vathlu-nazombe</a>
           </p>
           <p>
             <strong>Chimwemwe Mputeni</strong><br />
             Health Information System Advisor; Compelling Works<br />
-            Email: cchijota@gmail.com, Cell: +265 (0) 995 43 09 81
+            LinkedIn: <a href="https://www.linkedin.com/in/chimwemwe-mputeni">chimwemwe-mputeni</a>
           </p>
           <p>
             <strong>Mirriam Nsomba</strong><br />
             Managing Director; The Mile Limited<br />
-            Email: mirriam@the-mile.mw, Cell: +265 (0) 999 929 720
+            LinkedIn: <a href="https://www.linkedin.com/in/mirriam-nsomba">mirriam-nsomba</a>
           </p>
         </section>
       </div>
