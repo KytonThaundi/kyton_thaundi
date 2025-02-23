@@ -6,7 +6,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 .profile-container {
@@ -19,8 +18,6 @@ body {
   max-width: 1200px;
   color: #D8DEE9;
   margin: 20px auto;
-  overflow-y: auto;
-  max-height: calc(100vh - 40px);
 }
 
 .profile-header {
@@ -60,9 +57,6 @@ body {
 
 .profile-body {
   display: flex;
-  flex-direction: column;
-  overflow-y: auto;
-  max-height: calc(100vh - 120px);
 }
 
 .profile-nav {
@@ -74,7 +68,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   z-index: 1000;
-  max-width: calc(100% - 40px);
 }
 
 .profile-nav.active {
@@ -138,7 +131,6 @@ body {
 .profile-content {
   padding: 20px;
   flex: 1;
-  overflow-y: auto;
 }
 
 .profile-content p {
