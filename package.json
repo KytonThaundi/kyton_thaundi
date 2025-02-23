@@ -1,6 +1,8 @@
 {
   "name": "kyton_thaundi",
   "version": "1.0.0",
+  "description": "Kyton Thaundi's project",
+  "main": "index.js",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -11,9 +13,17 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3"
   },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0",
+    "babel-loader": "^8.0.0",
+    "style-loader": "^2.0.0",
+    "css-loader": "^5.0.0"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "chmod +x node_modules/.bin/react-scripts"
