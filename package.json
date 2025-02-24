@@ -16,7 +16,7 @@
   "devDependencies": {
     "css-loader": "^5.0.0",
     "style-loader": "^2.0.0",
-    "webpack-dev-server": "^3.11.0"
+    //"webpack-dev-server": "^3.11.0"
   },
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
