@@ -1,7 +1,7 @@
 # Kyton Thaundi
 
 ## Project Overview
-This project showcases the professional profile of Kyton Thaundi, an Information Technology professional with extensive experience in software development, business systems analysis, and network administration.
+This project showcases the professional profile of Kyton Thaundi, an Information Technology professional with extensive experience in business systems analysis.
 
 ## Technologies Used
 - React
