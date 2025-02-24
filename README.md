@@ -46,6 +46,15 @@ npm run build
 yarn build
 ```
 
+## Fixing the Dependency Tree
+
+To fix the dependency tree, follow these steps in the exact order:
+
+1. Delete `package-lock.json` (not `package.json`!) and/or `yarn.lock` in your project folder.
+2. Delete `node_modules` in your project folder.
+3. Remove `"babel-loader"` from `dependencies` and/or `devDependencies` in the `package.json` file in your project folder.
+4. Run `npm install` or `yarn`, depending on the package manager you use.
+
 ## Project Structure
 ```
 kyton_thaundi/
