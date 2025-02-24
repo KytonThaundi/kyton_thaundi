@@ -162,17 +162,17 @@ class Profile extends React.Component {
               <p>
                 <strong>Vathlu Nazombe</strong><br />
                 eHealth IT Implementation Specialist; UNDP<br />
-                LinkedIn: <a href="https://www.linkedin.com/in/vathlu-nazombe">vathlu-nazombe</a>
+                LinkedIn: <a href="https://www.linkedin.com/in/vathlu-nazombe" style={{ color: 'inherit' }}>vathlu-nazombe</a>
               </p>
               <p>
                 <strong>Chimwemwe Mputeni</strong><br />
                 Health Information System Advisor; Compelling Works<br />
-                LinkedIn: <a href="https://www.linkedin.com/in/chimwemwe-mputeni">chimwemwe-mputeni</a>
+                LinkedIn: <a href="https://www.linkedin.com/in/chimwemwe-mputeni" style={{ color: 'inherit' }}>chimwemwe-mputeni</a>
               </p>
               <p>
                 <strong>Mirriam Nsomba</strong><br />
                 Managing Director; The Mile Limited<br />
-                LinkedIn: <a href="https://www.linkedin.com/in/mirriam-nsomba">mirriam-nsomba</a>
+                LinkedIn: <a href="https://www.linkedin.com/in/mirriam-nsomba" style={{ color: 'inherit' }}>mirriam-nsomba</a>
               </p>
             </section>
           </div>
